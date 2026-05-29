@@ -7,7 +7,7 @@ Master arm (potentiometers) → ESP32 → ESP-NOW → Slave arm (servos via PCA9
 
 ## Surgical Vision — m2cai16 + YOLOv8
 
-**Dataset:** m2cai16 — 2,811 frames, 7 classes (Grasper, Bipolar, Hook, Scissors, Clipper, Irrigator, SpecimenBag), VOC2007 XML format
+**Dataset:** m2cai16 — 2,811 frames, 7 classes (Grasper, Bipolar, Hook, Scissors, Clipper, Irrigator, SpecimenBag), VOC2007 XML format ; Cholecseg8k
 
 **Pipeline:**
 1. Convert VOC XML → YOLO format using official splits (train=1405 / val=843 / test=563)
