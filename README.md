@@ -37,8 +37,8 @@ Master arm (potentiometers) → ESP32 → ESP-NOW → Slave arm (servos via PCA9
 ## Setup
 ```bash
 pip install ultralytics opencv-python
-python convert_voc_to_yolo.py
-python train.py
+python cholecseg8k_train.py
+python m2cai16_train.py
 ```
 
 ## References
